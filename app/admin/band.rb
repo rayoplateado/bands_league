@@ -1,4 +1,5 @@
 ActiveAdmin.register Band do
+  permit_params :name, :city, :email, :website
 
 # See permitted parameters documentation:
 # https://github.com/activeadmin/activeadmin/blob/master/docs/2-resource-customization.md#setting-up-strong-parameters
